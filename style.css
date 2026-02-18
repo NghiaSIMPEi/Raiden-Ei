@@ -34,6 +34,18 @@ img{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+.grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
+}
+
+figure {
+  border: 2px solid gray;
+  padding: 10px;
+  background-color: white;
+}
+
 @media (min-width: 772px) {
 
   .grid {
